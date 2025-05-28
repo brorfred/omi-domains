@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Bror Jönsson <brorfred@gmail.com>"]
+channels = ["conda-forge"]
+name = "omi-domains"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+folium = ">=0.19.6,<0.20"
+requests = ">=2.32.3,<3"
+pandas = ">=2.2.3,<3"
+numpy = ">=2.2.6,<3"
+scipy = ">=1.15.2,<2"
+geopandas = ">=1.0.1,<2"
+jupyter = ">=1.1.1,<2"

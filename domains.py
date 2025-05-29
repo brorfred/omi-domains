@@ -22,6 +22,12 @@ kw = dict(
     )
 
 folium.Rectangle(
+    bounds=[[-6, -50], [10, 15]],
+    tooltip="Tropical Atlantic lon:-10° - 10°, lat:-1° – 7°",
+    **kw,
+).add_to(gog_map)
+
+folium.Rectangle(
     bounds=[[-1, -10], [7, 10]],
     tooltip="Gulf of Guinea lon:-10° - 10°, lat:-1° – 7°",
     **kw,
